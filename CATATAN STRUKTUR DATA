@@ -1,0 +1,8 @@
+
+HASHING
+Hashing adalah proses pengindeksan dan pengembalian elemen dalam struktur data untuk menyajikan langkah yang lebih cepat dalam pencarian elemen menggunakan hash key. Ketika dua item terindeks ke dalam slot yang sama, harus dilakukan metode sistematis untuk menempatkan item kedua dalam tabel slot, hal ini disebut sebagai collision. Dengan begitu, terdapat dua penyelesaian yaitu menggunakan open addressing dan close addressing
+OPEN ADDRESSING
+
+Cara kerjanya adalah mencoba mencari slot lain yang terbuka atau alamat di dalam tabel hash. Open addressing terbagi menjadi dua cara yaitu Linear Probing dan Quadratic Probing
+
+Linear Probing cara kerjanya adalah mencari dengan sequential, slot demi slot, hingga menemukan posisi yang masih kosong.
